@@ -1,0 +1,9 @@
+[package]
+name = "Matrix-sim"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+eframe = "0.26" # GUIフレームワーク
+egui_plot = "0.26"
+nalgebra = "0.33" # 高速な行列計算ライブラリ
